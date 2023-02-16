@@ -1,11 +1,9 @@
-#include<stdio.h>
+#include <stdio.h>
 
 int main(void)
 \**
- *main - main function
- *
+ *main - use puts to display an output
  * Return: 0 on success
- *
  */
 
 {
