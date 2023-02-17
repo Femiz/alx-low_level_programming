@@ -10,9 +10,9 @@ int main(void)
 	char n[26] = "abcdefghijklmnopqrstuvwxyz";
 	int i;
 
-	for (i = 0; i < 26; 1++)
+	for (i = 0; i < 26; i++)
 	{
-		putchar(n[i});
+		putchar(n[i]);
 	}
 	putchar('\n');
 	return (0);
