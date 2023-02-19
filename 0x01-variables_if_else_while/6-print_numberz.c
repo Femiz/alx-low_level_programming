@@ -7,12 +7,12 @@
 
 int main(void)
 {
-	int n = "0123456789";
+	int n;
 	int i;
 
 	for (i = 0; i < 10; i++)
 	{
-		putchar(n[i]);
+		putchar(i);
 	}
 	putchar('\n');
 	return (0);
