@@ -1,22 +1,22 @@
 #include "main.h"
+#include <unistd.h>
 
 /**
- * main - entry point
- * Description: 'print _putchar to stdout'
- * Return: 0 when successful
+ *main - print putchar character 
+ * Return: On success 0.
  */
 
 int main(void)
 {
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('t');
-	_putchar('\n');
-	return (0);
+	putchar('_');
+	putchar('p');
+	putchar('u');
+	putchar('t');
+	putchar('c');
+	putchar('h');
+	putchar('a');
+	putchar('r');
+	putchar('\n');
 
+	return (0);
 }
