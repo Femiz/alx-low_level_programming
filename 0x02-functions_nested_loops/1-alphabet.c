@@ -21,5 +21,5 @@ void print_alphabet(void)
 
 	for (i = 0; i <= 26; i++)
 	{
-		putchar(alph[i]);
+		putchar(alpha[i]);
 	}
