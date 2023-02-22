@@ -16,8 +16,8 @@ int main(void)
 
 void print_alphabet(void)
 {
-	int a = a;
-	
-	while (a <=z)
+	int alpha[26] = "abcdefghijklmnopqrstuvwxyz";
+	for (i = 0; i <= 26; i++)
 	{
-		putchar(a
+		_putchar(alph[i]);
+	}
