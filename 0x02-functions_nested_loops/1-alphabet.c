@@ -12,8 +12,7 @@ void print_alphabet(void)
 	
 	while (start <= end)
 	{
-		_putchart(start);
+		_putchar(start);
 	}
 	_putchar('\n');
-	return (0);
 }
