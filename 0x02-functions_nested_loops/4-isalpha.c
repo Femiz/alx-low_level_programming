@@ -3,7 +3,7 @@
 /**
  * _islower - print check for alphabetic character
  * @c:the number enter when calling the function
- * Description: print the alphabet in lowercase or uppercase
+ * Description: _isalpha print the alphabet in lowercase or uppercase
  * Return: 1  if successful
  */
 
