@@ -2,8 +2,8 @@
 
 /**
  * _islower - print check for lower case
- * @parameterx: _islower take c is the value
- * 
+ * @c:the number enter when calling the function
+ * Description: print islower if it is lowercase
  * Return: 1  if successful
  */
 
