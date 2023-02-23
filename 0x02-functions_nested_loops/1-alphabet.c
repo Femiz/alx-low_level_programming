@@ -9,10 +9,11 @@
 void print_alphabet(void)
 {
 	int start = 97, end = 122;
-
-	for (start = 97; start <= end; start++)
+	
+	while (start <= end)
 	{
-		_putchar(start);
+		_putchart(start);
 	}
+	_putchar('\n');
 	return (0);
 }
