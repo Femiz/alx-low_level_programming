@@ -22,7 +22,7 @@ void jack_bauer(void)
 
 				s2++;
 			}
-			s2 = 0;
+			s = 0;
 			s++;
 		}
 }

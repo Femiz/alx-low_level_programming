@@ -18,10 +18,10 @@ void times_table(void)
 
 				if (s != 0)
 				{
-					putchar(',');
+					_putchar(',');
 					if (product < 10)
 					{
-						_putchar('  ');
+						_putchar(' ');
 						_putchar(' ');
 					}
 					else
@@ -33,11 +33,11 @@ void times_table(void)
 					_putchar(product + '0');
 				else
 				{
-					_putchar(product / 10  '0');
+					_putchar(product / 10 + '0');
 					_putchar(product % 10 + '0');
 				}
 				if (s == e)
-					_putcha('\n');
+					_putchar('\n');
 
 				s++;
 			}
