@@ -3,10 +3,10 @@
 /**
  * main - entry point
  * Description: print lower case alphabet
- * Return: 0 if successful
+ * Return: nothing if successful
  */
 
-void print_alphabet(void) // print alphabet
+void print_alphabet(void)
 {
 	int start = 97, end = 122;
 
