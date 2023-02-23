@@ -8,7 +8,7 @@
 
 void jack_bauer(void)
 {
-	int s = 0, m = 23, s2 = 0 m2 = 59
+	int s = 0, m = 23, s2 = 0, m2 = 59;
 		while (s <= m)
 		{
 			while (s2 <= m2)
@@ -20,7 +20,7 @@ void jack_bauer(void)
 				_putchar(s2 < 9 ? 0 + '0' : s2 % 10 + '0');
 				_putchar('\n');
 
-				s2++
+				s2++;
 			}
 			s2 = 0;
 			s++;
