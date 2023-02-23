@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * print_to_98 - print addition of number 
- * @n: first value 
+ * print_to_98 - print addition of number
+ * @n: first value
  * Description: print sign of number
  * Return: sum of @a and @b
  */
@@ -19,7 +19,7 @@ void print_to_98(int n)
 			n--;
 		}
 	}
-	else 
+	else
 	{
 		while (n <= 98)
 		{
