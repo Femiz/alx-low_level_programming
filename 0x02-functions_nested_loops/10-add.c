@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * add - print sign of a number
- * @n:the number enter when calling the function
+ * add - print addition of number 
+ * @a: first value
+ * @b: second value 
  * Description: print sign of number
- * Return: 1  if successful
+ * Return: sum of @a and @b
  */
 
 int add(int a, int b)

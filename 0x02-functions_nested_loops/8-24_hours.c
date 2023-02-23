@@ -14,15 +14,15 @@ void jack_bauer(void)
 			while (s2 <= m2)
 			{
 				_putchar(s < 9 ? 0 + '0' : s / 10 + '0');
-				_putchar(s < 9 ? 0 + '0' : s % 10 + '0');
+				_putchar(s < 9 ? s + '0' : s % 10 + '0');
 				_putchar(':');
 				_putchar(s2 < 9 ? 0 + '0' : s2 / 10 + '0');
-				_putchar(s2 < 9 ? 0 + '0' : s2 % 10 + '0');
+				_putchar(s2 < 9 ? s2 + '0' : s2 % 10 + '0');
 				_putchar('\n');
 
 				s2++;
 			}
-			s = 0;
+			s2 = 0;
 			s++;
 		}
 }
