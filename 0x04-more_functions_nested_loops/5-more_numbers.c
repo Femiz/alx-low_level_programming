@@ -7,12 +7,12 @@
  */
 
 void more_numbers(void)
-{	
+{
 	int c, count;
 
 	for (count = 1; count <= 10; count++)
 	{
-		for (c = '0'; c <= '14'; c++)
+		for (c = 0; c <= 14; c++)
 		{
 			if (c >= 10)
 			{
