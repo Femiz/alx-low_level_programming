@@ -3,7 +3,7 @@
 /**
  * print_numbers - print number
  * Description: print digit number
- * Return: value
+ * Return: void
  */
 
 void print_numbers(void)
@@ -14,5 +14,4 @@ void print_numbers(void)
 		_putchar(c);
 	}
 	_putchar('\n');
-	return (0);
 }
