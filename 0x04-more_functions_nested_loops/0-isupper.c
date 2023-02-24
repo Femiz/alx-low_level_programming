@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * _isupper
+ * _isupper - checks for uppercase letter
+ * @c: value to use
  * Description: print capital letter
  * Return: 1 if successful and 0 otherwise
  */
