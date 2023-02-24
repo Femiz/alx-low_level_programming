@@ -5,14 +5,15 @@
  * Description: print digit number
  * Return: void
  */
+void print_numbers(void);
 
 void print_numbers(void)
 {
-	char c;
+	int number;
 
-	for (c = '0'; c <= '9'; c++)
+	for (number = 0; number <= 9; number++)
 	{
-		_putchar(c);
+		_putchar(number + '0');
 	}
 	_putchar('\n');
 }
