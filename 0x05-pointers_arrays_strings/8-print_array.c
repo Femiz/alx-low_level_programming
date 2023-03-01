@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_array -  print every other character of a string
@@ -12,10 +13,12 @@ void print_array(int *a, int n)
 	int k;
 
 	for (k = 0; k < (n - 1); k++)
-		printf("%d, ", a[k];
+		printf("%d, ", a[k]);
 
 	if (k == (n - 1))
+	{
 		printf("%d", a[n - 1]);
+	}
 
 	_putchar('\n');
 }
