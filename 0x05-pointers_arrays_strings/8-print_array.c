@@ -3,7 +3,7 @@
 /**
  * print_array -  print every other character of a string
  * @a: first input value
- * @b: second input value
+ * @n: second input value
  * Return: void
  */
 
