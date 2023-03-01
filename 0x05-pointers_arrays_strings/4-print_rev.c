@@ -18,9 +18,9 @@ void print_rev(char *s)
 	}
 	s--;
 
-	for (m = var;; m > 0, m--)
+	for (m = var; m > 0; m--)
 	{
-		_putcahr(*s);
+		_putchar(*s);
 		s--;
 	}
 		_putchar('\n');
