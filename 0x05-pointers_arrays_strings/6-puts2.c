@@ -23,9 +23,10 @@ void puts2(char *str)
 
 	for (m = 0; m <= c; m++)
 	{
-		if (n % 2 == 0)
+		if (m % 2 == 0)
 		{
 			_putchar(str[m]);
+		}
 	}
 	_putchar('\n');
 }
