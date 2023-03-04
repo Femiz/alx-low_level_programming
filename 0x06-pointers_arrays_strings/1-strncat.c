@@ -4,10 +4,11 @@
  * _strcat - concatenate two string
  * @dest: first input
  * @src: second input
+ * @n: third input
  * Return: dest
  */
 
-char *_strcat(char *dest, char *src)
+char *_strncat(char *dest, char *src, int n)
 {
 	int i, j;
 
@@ -17,9 +18,9 @@ char *_strcat(char *dest, char *src)
 		i++;
 	}
 	j = 0;
-	while (j < n && src[i] != '\0')
+	while (j < n && src[j] != '\0')
 	{
-		dest[i] = src[i];
+		dest[i] = src[j];
 		i++;
 		j++;
 	}
