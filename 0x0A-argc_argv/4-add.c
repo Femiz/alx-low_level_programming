@@ -37,7 +37,8 @@ int main(int argc, char *argv[])
 		is_valid = 1;
 		num = 0;
 
-		for (j = 0; numStr[j] != '\0'; j++) {
+		for (j = 0; numStr[j] != '\0'; j++)
+		{
 			if (!is_digit(numStr[j]))
 			{
 				is_valid = 0;
@@ -47,7 +48,8 @@ int main(int argc, char *argv[])
 			num = num * 10 + (numStr[j] - '0');
 		}
 
-		if (!is_valid || num < 0) {
+		if (!is_valid || num < 0)
+		{
 			continue;
 		}
 
