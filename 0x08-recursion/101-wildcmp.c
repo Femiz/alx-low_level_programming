@@ -1,5 +1,5 @@
 #include "main.h"
-wildcmp_recursive(char *s1, char *s2);
+int wildcmp_recursive(char *s1, char *s2);
 /**
  * wildcmp_recursive - Recursive function to compare two strings
  *			with wildcard '*'.
