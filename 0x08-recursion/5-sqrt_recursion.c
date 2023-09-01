@@ -1,7 +1,6 @@
 #include "main.h"
 
 int power_operation(int n, int guess);
-int _sqrt(int n);
 
 /**
  * power_operation - Recursive function to find the
@@ -35,11 +34,11 @@ int power_operation(int n, int guess)
 	}
 }
 /**
- * _sqrt - Calculates the natural square root of a number.
+ * _sqrt_recursion - Calculates the natural square root of a number.
  * @n: Input number.
  * Return: Natural square root or -1 if not found.
  */
-int _sqrt(int n)
+int _sqrt_recursion(int n)
 {
 	if (n < 0)
 	{
