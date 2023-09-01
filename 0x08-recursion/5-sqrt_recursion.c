@@ -4,7 +4,7 @@ int power_operation(int n, int guess);
 
 /**
  * power_operation - Recursive function to find the
- * 			natural square root of a number.
+ *			natural square root of a number.
  * @n: Input number.
  * @guess: Current guess for the square root.
  * Return: Square root or -1 if not found.
