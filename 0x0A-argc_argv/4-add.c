@@ -21,7 +21,6 @@ int is_digit(char c)
 int main(int argc, char *argv[])
 {
 	int sum, is_valid, num, i, j;
-	char *numStr;
 
 	if (argc == 1)
 	{
